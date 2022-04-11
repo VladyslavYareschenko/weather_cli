@@ -4,6 +4,6 @@ Simple client implementation for [WeatherServer](https://github.com/VladyslavYar
 Available commands are:
 | Command | Description |
 | ------ | ------ |
-| get-providers | Returns the list of available weather providers from the server. |
-| configure <provider> | Set the active provider to request the weather forecast. |
-| get <address> <date> | Get the forecast for the specified location and date (in mm.dd.yyyy format). For example: `get London 01.22.2012`. |
+| `get-providers` | Returns the list of available weather providers from the server. |
+| `configure <provider>` | Set the active provider to request the weather forecast. |
+| `get <address> <date>` | Get the forecast for the specified location and date (in mm.dd.yyyy format). For example: `get London 01.22.2012`. |
